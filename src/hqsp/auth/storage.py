@@ -8,7 +8,7 @@ class SingletonPickler:
     """
     Pickles an initial 'seed' object into a file, upon initialization.
     The stored object is a 'singleton',so class provides an interface to both unpickle the object
-    or to recreate the file, with a new object.
+    or to delete and recreate the file, with a new object.
 
     Attributes
     -----------

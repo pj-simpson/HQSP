@@ -195,7 +195,7 @@ class Application:
 
         def wrap_function(*args, **kwargs):
             oauth_handler = OAuthHandler(
-                "../../demo/database", self.initial_token, self.base_url
+                "database", self.initial_token, self.base_url
             )
             token = oauth_handler.get_token()
             base_url = self.base_url

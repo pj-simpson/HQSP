@@ -60,17 +60,18 @@ gunicorn demo:app
 
 ## Features
 
-* WSGI compliant
+* WSGI compliant (courtsey [WebOb](https://webob.org/))
 * Function based controllers
 * Route declaration in a single method call
+* Path parameters
 * Decorators to pass headers object to function controllers
 * Token management entirely taken care of by the framework
-* Jinja2 templates
-* Whienoise static file management
+* [Jinja2](https://jinja.palletsprojects.com/en/3.0.x/) templates
+* [Whienoise](http://whitenoise.evans.io/en/stable/) static file management
 
 ## Note
 
-This is incredibly rough and ready as it is, _in effect_, a POC for a framework to build POCs. 
+This is incredibly rough and ready as it is, _in effect_, a POC for a framework to build POCs. I do not advise using it.
 Python Web Frameworks are plentiful and essentially represent a problem already solved,
 however, I have found learning how to build one a valuable exercise in and of itself. 
 I hope that the notion of a framework for non developers wanting to leverage a particular API, is clear.
