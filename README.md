@@ -9,7 +9,7 @@ parts of consuming  an external service, allowing it's users to easily surface d
 ## Influence
 
 There are many tutorials out there where you can learn to build your own WSGI Server/ Web Framework, but the most influential,
-in terms of this project, has been [Jahongir Rahmonov's]((http://rahmonov.me/posts/write-python-framework-part-one/)).
+in terms of this project, has been [Jahongir Rahmonov's](http://rahmonov.me/posts/write-python-framework-part-one/).
 
 ## Example
 
